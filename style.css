@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+.hero{
+    width: 100%;
+    height: 100vh;
+    background-image: url(flowwer.jpg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    overflow: hidden;
+}
+.download{
+    width: 100px;
+    cursor: pointer;
+}
+.navbar{
+    width: 85%;
+    height: 15%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+button{
+    color: rgb(221, 9, 44);
+    padding: 10px 25px;
+    background-color: transparent;
+   border: 1px solid goldenrod;
+   border-right-style: outset;
+   border-radius: 20px;
+   outline: lightseagreen;
+   cursor: pointer;
+}
+.content{
+    color: lightseagreen;
+    position: absolute;
+    top: 50%;
+    left: 8%;
+    transform: translateY(-50%);
+    z-index: 2;
+
+}
+h1{
+    font-size: 60px;
+    margin: 10px 30px ;
+    line-height: 80px;
+}
+.side-bar{
+    width: 50px;
+    height: 100vh;
+    background:linear-gradient(solid rgb(245, 245, 245) );
+    position: absolute;
+    right=0;
+    top=0;
+}
